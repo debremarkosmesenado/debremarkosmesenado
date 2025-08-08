@@ -1,0 +1,154 @@
+*{
+margin:0;
+padding:0;
+
+}
+.main{
+width:100%;
+background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%)no-repeat center center fixed;
+background-postion:center;
+background-size:cover;
+height:109vh;
+}
+.logo{
+height:65px;
+}
+
+.navbar{
+width:1200px;
+height:75px;
+margin:auto;
+}
+.icon{
+width:200px;
+float:left;
+height:70px;
+}
+.logo{
+color:black;
+font-size:35px; 
+font-family:arial;
+padding-lest:20;
+float:left;
+padding-top:10%;
+}
+.menu{
+width:400px;
+float:left;
+height:70px;
+}
+
+
+ul{
+float:left;
+display:flex;
+justify-content:center;
+align-item:center;
+}
+
+ul li{
+list-style:none;
+margin-left:65px;
+margin-top:27px;
+font-size:16px;
+}
+ul li a{
+text-decoration:none;
+color:white;
+font-family:arial;
+font-weight:bold;
+transition:0.4s ease-in-out;
+}
+ul li a:hover{
+color:black;
+}
+
+.search{
+width:330px;
+float:left;
+margin-left:270px;
+}
+
+.srch{
+fot-family:'times new roman';
+width:200px;
+height:40px;
+background:transparent;
+border:1px solid black;
+margin-top:13px;
+color:white;
+border-right:none;
+font-size:16px;
+float:left;
+padding:10px;
+border-bottom-left-radius:5px;
+border-top-left-radius:5px;
+
+}
+.btn{
+width:100px;
+height:40px;
+background:black;
+border:2px solid black;
+margin-top:13px;
+color:white;
+font-size:15px;
+border-bottom-righht-radius:5px;
+border-bottom-right-radius:5px;
+}
+.btn:focus{
+outline:none;
+}
+.srch:focus{
+outline:none;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background:url(9.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.photo-item {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.photo-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.photo-item h3 {
+    margin: 10px 0 5px;
+}
+
+.photo-item p {
+    font-size: 0.9em;
+}
+
+.photo-item:hover {
+    transform: scale(1.05);
+}

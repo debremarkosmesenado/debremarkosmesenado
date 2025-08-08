@@ -1,0 +1,37 @@
+*{
+margin:0;
+padding:0;
+
+}
+body{
+width:100%;
+background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(9.jpg)no-repeat center center fixed;
+background-postion:center;
+background-size:cover;
+height:109vh;
+}
+.cn{
+width:160px;
+height:40px;
+background:skyblue;
+border:none;
+margin-bottom:10px;
+margin-left:20px;
+font-size:18px;
+border-radius:10px;
+cursor:pointer;
+transition:.4s ease;
+
+}
+.cn a{
+text-decoration:none;
+color: white;
+transition:.3s ease;
+}
+.cn:hover{
+background:white;
+}
+.content span{
+color:black;
+font-size:60px;
+}
